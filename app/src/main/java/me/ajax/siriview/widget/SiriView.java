@@ -71,6 +71,7 @@ public class SiriView extends View {
 
         //画笔
         rowOnePaint = new Paint();
+        rowOnePaint.setAntiAlias(true);
         rowOnePaint.setColor(0xFFFF00FF);
         rowOnePaint.setStrokeWidth(5);
         rowOnePaint.setTextSize(dp2Dx(14));
